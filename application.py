@@ -10,7 +10,7 @@ import numpy as np
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'png'])
 IMAGE_SIZE = (224, 224)
 UPLOAD_FOLDER = 'uploads'
-vgg16 = load_model('C:/Users/Edward Z/Downloads/HackTJ/HackTJ/keras-flask-image-classifier-patch-1/model/vgg16.h5')
+vgg16 = load_model('C:/Users/Edward Z/Downloads/HackTJ/HackTJ/vgg16.h5')
 
 
 def allowed_file(filename):
